@@ -2,7 +2,7 @@ title: taki-on
 description: > # this means to ignore newlines until "show_exerpts:"
   👋 Hello! 안녕하세요! こんにちは。
 show_excerpts: false # set to true to show excerpts on the homepage
-baseurl: "taki-on.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://taki-on.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: taki__on
 github_username:  taki-on
@@ -10,9 +10,6 @@ github_username:  taki-on
 remote_theme: bitbrain/jekyll-dash
 plugins:
   - jekyll-feed
-
-paginate: 1
-paginate_path: "/blog/page:num/"
 
 # Theme set up
 dash:
