@@ -7,9 +7,9 @@ url: "https://taki-on.github.io" # the base hostname & protocol for your site, e
 twitter_username: taki__on
 github_username:  taki-on
 
-remote_theme: bitbrain/jekyll-dash
+theme: minima
+# remote_theme: bitbrain/jekyll-dash
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 # Theme set up
