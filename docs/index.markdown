@@ -5,4 +5,5 @@
 layout: home
 ---
 
-Hi!
+<img width="50" src="https://github.com/taki-on.png">
+👋 Hello!
