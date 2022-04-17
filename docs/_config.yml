@@ -7,10 +7,12 @@ url: "https://taki-on.github.io" # the base hostname & protocol for your site, e
 twitter_username: taki__on
 github_username:  taki-on
 
-# Build settings
 remote_theme: bitbrain/jekyll-dash
 plugins:
   - jekyll-feed
+
+paginate: 1
+paginate_path: "/blog/page:num/"
 
 # Theme set up
 dash:
