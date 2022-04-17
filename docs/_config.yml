@@ -1,7 +1,7 @@
 title: taki-on
 description: > # this means to ignore newlines until "show_exerpts:"
   👋 Hello! 안녕하세요! こんにちは。
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://taki-on.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: taki__on
