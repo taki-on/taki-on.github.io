@@ -25,7 +25,7 @@ twitter_username: taki__on
 github_username:  taki-on
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
