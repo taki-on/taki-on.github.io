@@ -10,7 +10,7 @@ github_username:  taki-on
 paginate: 1
 paginate_path: "/blog/page:num/"
 
-remote_theme: dyutibarma/monochrome
+remote_theme: andrewhwanpark/dark-poole
 plugins:
   - jekyll-feed
   - jekyll-paginate
