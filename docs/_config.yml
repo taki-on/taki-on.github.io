@@ -9,6 +9,18 @@ remote_theme: bitbrain/jekyll-dash
 plugins:
   - jekyll-feed
 
+# Theme set up
+dash:
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/taki__on
+      icon: twitter-square
+      color: teal
+    - url: https://github.com/taki-on
+      icon: github-square
+      color: teal
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
