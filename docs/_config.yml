@@ -11,6 +11,8 @@ plugins:
 
 # Theme set up
 dash:
+  avatar_source: github
+  github_username: taki-on
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
