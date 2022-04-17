@@ -5,5 +5,5 @@
 layout: home
 ---
 
-<img width="40" style="border-radius:5%" src="https://github.com/taki-on.png">
+<img width="40" style="border-radius:50%" src="https://github.com/taki-on.png">
 👋 Hello!
