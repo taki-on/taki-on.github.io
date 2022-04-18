@@ -20,6 +20,10 @@ google_analytics: G-8X9M5KK7EL
 dash:
   avatar_source: github
   github_username: taki-on
+
+  disqus:
+    shortname: taki-on-github-io
+
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
