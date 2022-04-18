@@ -14,6 +14,8 @@ remote_theme: bitbrain/jekyll-dash
 plugins:
   - jekyll-feed
 
+google_analytics: G-8X9M5KK7EL
+
 # Theme set up
 dash:
   avatar_source: github
