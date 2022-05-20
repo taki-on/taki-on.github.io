@@ -21,6 +21,7 @@ remote_theme: bitbrain/jekyll-dash
 
 in `_config.yml`. Then the GitHub Action will build the pages with the theme integrated. We do not need to update `Gemfile`, either.
 
+In order to add a few more `jekyll-dash` specific settings, we should define `dash`. For example we can retrieve avatar with `avatar_source` definition, and integrate [Disqus](https://disqus.com) with `disqus`. The whole `_config.yml` including `dash` configuration you can find in https://github.com/taki-on/taki-on.github.io/blob/main/docs/_config.yml
 
 # Fixing `no posts` issue
 
