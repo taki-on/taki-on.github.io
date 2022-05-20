@@ -9,11 +9,18 @@ I recently set up this personal web site with [GitHub Pages](https://pages.githu
 
 # Setup `jekyll-dash` theme
 
-Set up a GitHub supported theme is just easy (https://pages.github.com/themes/). But what I wanted to set up was not a supported theme by GitHub, but one from a http://jekyllthemes.org. This means I needed to manually edit `_config.yml`. 
+Set up a GitHub supported theme is just easy (https://pages.github.com/themes/). But what I wanted to set up was not a supported theme by GitHub, but one from a http://jekyllthemes.org. This means I needed to manually edit `_config.yml`.
 
-`remote-theme`
+It seems like there is a way to include the theme's gem in `Gemfile` and let a GitHub Action build the pages, but it requires a bit of manual set up and a few trials to get it up and running. Fortunately there is a simpler way to integrate a custom theme. In the `_config.yml` we can define `remote-theme` and it handles everything to get a custom theme up and running (https://github.blog/2017-11-29-use-any-theme-with-github-pages/).
 
-`_config.yml`
+For the [jekyll-dash](https://github.com/bitbrain/jekyll-dash) theme, it is sufficient to add
+
+```yml
+remote_theme: bitbrain/jekyll-dash
+```
+
+in `_config.yml`. Then the GitHub Action will build the pages with the theme integrated. We do not need to update `Gemfile`, either.
+
 
 # Fixing `no posts` issue
 
